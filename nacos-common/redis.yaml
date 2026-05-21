@@ -1,0 +1,13 @@
+spring:
+  data:
+    redis:
+      host: 192.168.0.186     # Redis 伺服器地址
+      port: 6379          # Redis 埠號
+      password: 123456          # 如果有設定密碼請填寫
+      database: 0         # 使用的資料庫索引
+      lettuce:
+        pool:
+          max-active: 8   # 最大連接數
+          max-wait: -1ms  # 最大等待時間
+          max-idle: 8     # 最大空閒連接
+          min-idle: 0     # 最小空閒連接

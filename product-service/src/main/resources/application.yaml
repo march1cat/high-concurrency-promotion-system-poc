@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: product-service
+  cache:
+    type: caffeine
+    cache-names:
+      - storage
+      - collection
+    caffeine:
+      spec: initialCapacity=100,maximumSize=500,expireAfterWrite=10s
+  config:
+    import:
+      - nacos:product-service.yaml
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.0.186:8848
+      config:
+        server-addr: 192.168.0.186:8848
+        file-extension: yaml
+        group: DEFAULT_GROUP
+    openfeign:
+      circuitbreaker:
+        enabled: true

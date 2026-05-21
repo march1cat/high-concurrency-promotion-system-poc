@@ -1,0 +1,10 @@
+INSERT INTO Products (Id, Name, Description) VALUES (UUID(), 'Wireless Mouse', 'Ergonomic 2.4GHz silent mouse.');
+INSERT INTO Products (Id, Name, Description) VALUES (UUID(), 'Mechanical KB', 'RGB backlit gaming keyboard.');
+INSERT INTO Products (Id, Name, Description) VALUES (UUID(), 'USB-C Hub', '7-in-1 multitasking adapter.');
+INSERT INTO Products (Id, Name, Description) VALUES (UUID(), 'Webcam 1080p', 'HD camera for video meetings.');
+INSERT INTO Products (Id, Name, Description) VALUES (UUID(), 'Laptop Stand', 'Adjustable aluminum riser.');
+INSERT INTO Products (Id, Name, Description) VALUES (UUID(), 'Power Bank', '20000mAh fast charging pack.');
+INSERT INTO Products (Id, Name, Description) VALUES (UUID(), 'Desk Mat', 'Extra large waterproof leather.');
+INSERT INTO Products (Id, Name, Description) VALUES (UUID(), 'HDMI Cable', 'High speed 4K braided cable.');
+INSERT INTO Products (Id, Name, Description) VALUES (UUID(), 'Table Lamp', 'LED eye-protection office lamp.');
+INSERT INTO Products (Id, Name, Description) VALUES (UUID(), 'Earbuds Pro', 'Noise cancelling wireless buds.');
